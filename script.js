@@ -23,7 +23,7 @@ getProfile();
 
 // display infomation from github profile
 const displayProfile = function (profile) {
-    const userInfo = document.querySelector('.user-info');
+   // const userInfo = document.querySelector('.user-info');
     userInfo.innerHTML = `
         <figure>
             <img alt="user avatar" src=${profile.avatar_url} />
